@@ -45,6 +45,7 @@ class RecyclerAdapter : RecyclerView.Adapter<CardViewHolder?>() {
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): CardViewHolder {
         // TODO: Inflate the view, make a CardViewHolder and return it
 
+        return TODO("Provide the return value")
     }
 
     override fun onBindViewHolder(viewHolder: CardViewHolder, i: Int) {
