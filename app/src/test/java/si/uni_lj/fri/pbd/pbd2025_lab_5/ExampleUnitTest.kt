@@ -1,4 +1,4 @@
-package si.uni_lj.fri.pbd.pbd2024_lab_3
+package si.uni_lj.fri.pbd.pbd2025_lab_5
 
 import org.junit.Test
 

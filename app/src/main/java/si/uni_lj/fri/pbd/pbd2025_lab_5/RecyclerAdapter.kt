@@ -1,15 +1,13 @@
-package si.uni_lj.fri.pbd.pbd2024_lab_3
+package si.uni_lj.fri.pbd.pbd2025_lab_5
 
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.snackbar.Snackbar
-import si.uni_lj.fri.pbd.pbd2024_lab_3.RecyclerAdapter.CardViewHolder
 
-class RecyclerAdapter : RecyclerView.Adapter<CardViewHolder?>() {
+class RecyclerAdapter :  RecyclerView.Adapter<RecyclerAdapter.CardViewHolder?>() {
+
     private val titles = arrayOf("Mercury",
         "Venus",
         "Earth",
@@ -42,18 +40,17 @@ class RecyclerAdapter : RecyclerView.Adapter<CardViewHolder?>() {
         }
     }
 
-    override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): CardViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
         // TODO: Inflate the view, make a CardViewHolder and return it
 
         return TODO("Provide the return value")
     }
 
-    override fun onBindViewHolder(viewHolder: CardViewHolder, i: Int) {
-        // TODO: set the image, title, and details data
-
-    }
-
     override fun getItemCount(): Int {
         return titles.size
+    }
+
+    override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
+        // TODO: set the image, title, and details data
     }
 }

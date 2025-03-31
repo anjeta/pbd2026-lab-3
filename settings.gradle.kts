@@ -1,6 +1,12 @@
 pluginManagement {
     repositories {
-        google()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -13,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "pbd2024-lab-3"
+rootProject.name = "PBD2025-LAB-5"
 include(":app")

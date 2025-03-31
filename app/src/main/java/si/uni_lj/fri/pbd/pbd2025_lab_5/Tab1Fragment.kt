@@ -1,4 +1,4 @@
-package si.uni_lj.fri.pbd.pbd2024_lab_3
+package si.uni_lj.fri.pbd.pbd2025_lab_5
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.ListView
 import androidx.fragment.app.Fragment
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
-import si.uni_lj.fri.pbd.pbd2024_lab_3.databinding.FragmentTab1Binding
+import si.uni_lj.fri.pbd.pbd2025_lab_5.databinding.FragmentTab1Binding
 import java.text.SimpleDateFormat
 import java.util.*
 
