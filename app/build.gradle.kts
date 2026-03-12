@@ -4,13 +4,17 @@ plugins {
 }
 
 android {
-    namespace = "si.uni_lj.fri.pbd.pbd2025_lab_5"
-    compileSdk = 35
+    namespace = "si.uni_lj.fri.pbd.pbd2026_lab_3"
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
 
     defaultConfig {
-        applicationId = "si.uni_lj.fri.pbd.pbd2025_lab_5"
-        minSdk = 35
-        targetSdk = 35
+        applicationId = "si.uni_lj.fri.pbd.pbd2026_lab_3"
+        minSdk = 27
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 

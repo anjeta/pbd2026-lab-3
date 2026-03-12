@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PBD2025-LAB-5"
+rootProject.name = "PBD2026-LAB-3"
 include(":app")

@@ -1,4 +1,4 @@
-package si.uni_lj.fri.pbd.pbd2025_lab_5
+package si.uni_lj.fri.pbd.pbd2026_lab_3
 
 import android.view.View
 import android.view.ViewGroup
